@@ -1,8 +1,9 @@
 ---
 title: "Hello World!"
-date: 2024-05-20 12:00:00 +5030
+date: 2024-05-19 12:00:00 +5030
 categories: [introduction]
 tags: [hello, welcome]  # TAG names should always be lowercase
+description: "Ank's tech space: tutorials, problem-solving, projects, resources. Welcomes learners, educators, and curious minds to connect and inspire. 🚀"
 ---
 
 # Hello World! 🌍
@@ -28,7 +29,8 @@ Whether you're a **fellow learner** 🧑🏻, an **educator** 🧑🏻‍🏫, o
 
 Let's inspire and learn from each other!
 
-    Happy exploring! 🌐
+## Happy exploring! 🌐
 
-> Best, Ank
+Best,   
+Ank
 
