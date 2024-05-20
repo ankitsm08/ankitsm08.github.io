@@ -31,3 +31,12 @@ Whether you're a fellow learner, educator, or just curious about tech, feel free
 
 Best,  
 Ank
+
+Made using <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> with the 
+<a data-bs-toggle="tooltip"
+data-bs-placement="top"
+title="v{{ theme.version }}"
+href="https://github.com/cotes2020/jekyll-theme-chirpy"
+target="_blank"
+rel="noopener">Chirpy Theme</a> hosted at 
+<a href="https://pages.github.com/" target="_blank" rel="noopener">Github Pages</a>.
