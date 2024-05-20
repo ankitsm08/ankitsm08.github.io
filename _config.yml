@@ -43,6 +43,9 @@ url: "https://ankitsm08.github.io"
 github:
   username: ankitsm08 # change to your github username
 
+youtube:
+  username: "@enderanksh7342" # change to your youtube username
+
 # twitter:
 #   username: ankitsm08 # change to your twitter username
 
@@ -54,6 +57,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/ankitsm08 # change to your github homepage
+    - https://www.youtube.com/@enderanksh7342 # change to your youtube homepage
     # - https://twitter.com/username # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
