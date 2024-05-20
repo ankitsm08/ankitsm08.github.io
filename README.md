@@ -9,7 +9,7 @@ Welcome to Ank's Tech Space! This repository is Ank's digital playground where h
 - 💻 **Projects:** Work in robotics, automation, and more.
 - 🔗 **Resources:** Helpful links, tools, and references for students and tech enthusiasts.
 
-## Let's Connect!
+## Let's Connect! ⚡
 
 Whether you're a fellow learner, educator, or just curious, feel free to connect with Ank and explore together!
 
