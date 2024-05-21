@@ -6,6 +6,7 @@ tags: [Ank, My Life]  # TAG names should always be lowercase
 description: "Ank's tech space: tutorials, problem-solving, projects, resources. Welcomes learners, educators, and curious minds to connect and inspire. 🚀"
 image:
   path: /assets/img/posts/hello-world.png
+  lqip: data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAAAQBgCdASonABoAPpFCnEolo6KhpWmYsBIJZQCdM2QBAajGjcgCI7VNebF+OxiyFAA6w9Ebwao9SAAA/t7ci+fYYdj6p+7CnNkgsreucZGNhNj1eaMUE8KVuLx41kpkAYIXogJeJZejCGtwhPqwF352DQ+cmR5A60+jJSSsxkdp5yj0vKLsQEKcAuOR9ev/ZLBytKLIONY7f77AsBGU6uZOnn9gC4w7FuY6I7nM5iDepsSmwhfOjKlw+DbyaqxDa76fVZcbgfpsvB1s8X4tAAAA
   alt: Hello World!
 ---
 
@@ -25,6 +26,12 @@ This **website** is my **digital playground** where I document my learning journ
 - 🧩 **Problem-Solving:** My thoughts and solutions to problems.
 - 💻 **Projects:** My work in robotics, automation, and more.
 - 🔗 **Resources:** Helpful links, tools, and references for students and tech enthusiasts.
+
+---
+
+![Robot saying Hello World!](/assets/img/posts/robot-hello-world.webp){: lqip="data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAACwBACdASobAA8APpE6mEeloyKhMAgAsBIJbACdMoAlqhfhwkF+lvtf7I0hOBgAAP7tUIJHteM4yiZhw3utHe8kOIW0arwtSy8PoKPMbXbsaGSgmp3Aa+cSMsS8lTwdk6WHFM77+RX5nn38b1LTRcb4MbZaOgTC8a55Hm6b7jQVK02BcAxtzkRP6K+bPwGqArviDDQfQh8GqWeQwOSDQD2TjOSS9Hi11YAAAA==" w="2000" .shadow}
+
+---
 
 ### Let's Connect!
 
