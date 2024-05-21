@@ -1,8 +1,8 @@
 ---
 title: "Hello World!"
 date: 2024-05-19 12:00:00 +5030
-categories: [introduction]
-tags: [hello, welcome]  # TAG names should always be lowercase
+categories: [Me, Introduction]
+tags: [Ank, My Life]  # TAG names should always be lowercase
 description: "Ank's tech space: tutorials, problem-solving, projects, resources. Welcomes learners, educators, and curious minds to connect and inspire. 🚀"
 image:
   path: /assets/img/posts/hello-world.png
