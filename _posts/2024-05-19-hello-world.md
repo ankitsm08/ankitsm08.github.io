@@ -6,7 +6,7 @@ tags: [Ank, My Life]  # TAG names should always be lowercase
 description: "Ank's tech space: tutorials, problem-solving, projects, resources. Welcomes learners, educators, and curious minds to connect and inspire. 🚀"
 image:
   path: /assets/img/posts/hello-world.png
-  lqip: data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAAAQBgCdASonABoAPpFCnEolo6KhpWmYsBIJZQCdM2QBAajGjcgCI7VNebF+OxiyFAA6w9Ebwao9SAAA/t7ci+fYYdj6p+7CnNkgsreucZGNhNj1eaMUE8KVuLx41kpkAYIXogJeJZejCGtwhPqwF352DQ+cmR5A60+jJSSsxkdp5yj0vKLsQEKcAuOR9ev/ZLBytKLIONY7f77AsBGU6uZOnn9gC4w7FuY6I7nM5iDepsSmwhfOjKlw+DbyaqxDa76fVZcbgfpsvB1s8X4tAAAA
+  lqip: data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoMAAgAAgA0JZwCdAEO/InKLgAA/t43daKSCRR205P4ip5CyTXs2t0kc6HGWmiKlkmSDh9HS0Hvmp9tWrLi0KiWOAA=
   alt: Hello World!
 ---
 
