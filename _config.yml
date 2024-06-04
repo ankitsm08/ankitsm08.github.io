@@ -65,7 +65,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-    id: ankitsm08.goatcounter.com
+    id: ankitsm08
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -77,7 +77,7 @@ analytics:
 
 # Pageviews settings
 pageviews:
-  provider: ankitsm08.goatcounter.com
+  provider: goatcounter
 
 # Prefer color scheme setting.
 #
