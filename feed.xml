@@ -1,0 +1,153 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://ankitsm08.github.io/</id>
+  <title>Ankit Sharma</title>
+  <subtitle>JEE preparation, computer science, data science, machine learning, deep learning, robotics, automation, Python programming, C++ programming, Visual Studio Code, Obsidian notes, problem-solving, chess strategies, badminton tips, anime reviews, manga recommendations, light novels.</subtitle>
+  <updated>2024-09-23T23:55:28+05:30</updated>
+  <author>
+    <name>Ankit Sharma</name>
+    <uri>https://ankitsm08.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://ankitsm08.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://ankitsm08.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
+  <rights> © 2024 Ankit Sharma </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>ISC Java CS Project Repository</title>
+    <link href="https://ankitsm08.github.io/posts/isc-computer-project/" rel="alternate" type="text/html" title="ISC Java CS Project Repository" />
+    <published>2024-09-22T17:30:00+05:30</published>
+  
+    <updated>2024-09-23T23:00:39+05:30</updated>
+  
+    <id>https://ankitsm08.github.io/posts/isc-computer-project/</id>
+    <content src="https://ankitsm08.github.io/posts/isc-computer-project/" />
+    <author>
+      <name>Ankit Sharma</name>
+    </author>
+
+  
+    
+    <category term="Study" />
+    
+    <category term="Computer Science" />
+    
+  
+
+  <summary>A comprehensive and time-saving resource for the Class 12 ISC Computer Science Java project. This repository includes questions, algorithms, Java programs, test outputs, and a ready-to-print Word docx file. Licensed under MIT, it&amp;#39;s free for everyone to use, modify, and share. Contributions welcome!</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Common Names in Organic Chemistry</title>
+    <link href="https://ankitsm08.github.io/posts/common-names-in-organic-chemistry/" rel="alternate" type="text/html" title="Common Names in Organic Chemistry" />
+    <published>2024-06-02T00:00:00+05:30</published>
+  
+    <updated>2024-06-02T00:00:00+05:30</updated>
+  
+    <id>https://ankitsm08.github.io/posts/common-names-in-organic-chemistry/</id>
+    <content src="https://ankitsm08.github.io/posts/common-names-in-organic-chemistry/" />
+    <author>
+      <name>Ankit Sharma</name>
+    </author>
+
+  
+    
+    <category term="Study" />
+    
+    <category term="Chemistry" />
+    
+  
+
+  <summary>An overview of common names in organic chemistry and strategies to memorize them effectively.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>VS Code: My Coding BFF</title>
+    <link href="https://ankitsm08.github.io/posts/vs-code/" rel="alternate" type="text/html" title="VS Code: My Coding BFF" />
+    <published>2024-05-22T17:30:00+05:30</published>
+  
+    <updated>2024-05-25T01:09:39+05:30</updated>
+  
+    <id>https://ankitsm08.github.io/posts/vs-code/</id>
+    <content src="https://ankitsm08.github.io/posts/vs-code/" />
+    <author>
+      <name>Ankit Sharma</name>
+    </author>
+
+  
+    
+    <category term="Tools" />
+    
+    <category term="Software" />
+    
+  
+
+  <summary>Tired of clunky IDEs? VS Code, a personal take on why it&amp;#39;s a game-changer for programmers and hobbyists.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Obsidian: Master Your Note-Taking</title>
+    <link href="https://ankitsm08.github.io/posts/obsidian/" rel="alternate" type="text/html" title="Obsidian: Master Your Note-Taking" />
+    <published>2024-05-20T00:00:00+05:30</published>
+  
+    <updated>2024-05-25T00:58:28+05:30</updated>
+  
+    <id>https://ankitsm08.github.io/posts/obsidian/</id>
+    <content src="https://ankitsm08.github.io/posts/obsidian/" />
+    <author>
+      <name>Ankit Sharma</name>
+    </author>
+
+  
+    
+    <category term="Tools" />
+    
+    <category term="Software" />
+    
+  
+
+  <summary>A versatile note-taking tool for organizing thoughts, fostering connections, and boosting productivity 🚀.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Hello World!</title>
+    <link href="https://ankitsm08.github.io/posts/hello-world/" rel="alternate" type="text/html" title="Hello World!" />
+    <published>2024-05-19T17:30:00+05:30</published>
+  
+    <updated>2024-05-25T00:59:17+05:30</updated>
+  
+    <id>https://ankitsm08.github.io/posts/hello-world/</id>
+    <content src="https://ankitsm08.github.io/posts/hello-world/" />
+    <author>
+      <name>Ankit Sharma</name>
+    </author>
+
+  
+    
+    <category term="Me" />
+    
+    <category term="Introduction" />
+    
+  
+
+  <summary>Ank&amp;#39;s tech space: tutorials, problem-solving, projects, resources. Welcomes learners, educators, and curious minds to connect and inspire. 🚀</summary>
+
+  </entry>
+
+</feed>
+
+
