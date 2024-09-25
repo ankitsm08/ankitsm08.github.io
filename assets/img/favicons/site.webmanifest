@@ -1,1 +1,21 @@
-{ "name": "Ankit Sharma", "short_name": "Ankit Sharma", "description": "JEE preparation, computer science, data science, machine learning, deep learning, robotics, automation, Python programming, C++ programming, Visual Studio Code, Obsidian notes, problem-solving, chess strategies, badminton tips, anime reviews, manga recommendations, light novels.", "icons": [ { "src": "/assets/img/favicons/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" }, { "src": "/assets/img/favicons/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }], "start_url": "/index.html", "theme_color": "#2a1e6b", "background_color": "#ffffff", "display": "fullscreen" }
+
+{
+  "name": "Ankit Sharma",
+  "short_name": "Ankit Sharma",
+  "description": "JEE preparation, computer science, data science, machine learning, deep learning, robotics, automation, Python programming, C++ programming, Visual Studio Code, Obsidian notes, problem-solving, chess strategies, badminton tips, anime reviews, manga recommendations, light novels.",
+  "icons": [
+    {
+      "src": "/assets/img/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "theme_color": "#2a1e6b",
+  "background_color": "#ffffff",
+  "display": "fullscreen"
+} <table id="compress_html_profile_20240925" class="compress_html_profile"> <thead> <tr> <td>Step <td>Bytes <tbody> <tr> <td>raw <td>753 <tr> <td>endings <td>754 <tr> <td>comments <td>754 <tr> <td>collapse <td>752 <tr> <td>clippings <td>752 </table>

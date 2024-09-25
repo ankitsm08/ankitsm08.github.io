@@ -1,27 +1,735 @@
-<!doctype html><html lang="en" ><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover" ><meta name="generator" content="Jekyll v4.3.4" /><meta property="og:title" content="VS Code: My Coding BFF" /><meta property="og:locale" content="en" /><meta name="description" content="Tired of clunky IDEs? VS Code, a personal take on why it’s a game-changer for programmers and hobbyists." /><meta property="og:description" content="Tired of clunky IDEs? VS Code, a personal take on why it’s a game-changer for programmers and hobbyists." /><link rel="canonical" href="https://ankitsm08.github.io/posts/vs-code/" /><meta property="og:url" content="https://ankitsm08.github.io/posts/vs-code/" /><meta property="og:site_name" content="Ankit Sharma" /><meta property="og:image" content="https://ankitsm08.github.io/assets/img/posts/vs-code.webp" /><meta property="og:image:alt" content="VS Code" /><meta property="og:type" content="article" /><meta property="article:published_time" content="2024-05-22T17:30:00+05:30" /><meta name="twitter:card" content="summary_large_image" /><meta property="twitter:image" content="https://ankitsm08.github.io/assets/img/posts/vs-code.webp" /><meta name="twitter:image:alt" content="VS Code" /><meta property="twitter:title" content="VS Code: My Coding BFF" /> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-05-25T01:09:39+05:30","datePublished":"2024-05-22T17:30:00+05:30","description":"Tired of clunky IDEs? VS Code, a personal take on why it’s a game-changer for programmers and hobbyists.","headline":"VS Code: My Coding BFF","image":{"lqip":"data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoMAAgAAgA0JQBOgBulqaKnKgAA/v3fCucSSThsmldB+QUCXiFCEPNUrhvQ+iiAcQZbJtXTejdaB80yFBJqAAAA","alt":"VS Code","url":"https://ankitsm08.github.io/assets/img/posts/vs-code.webp","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://ankitsm08.github.io/posts/vs-code/"},"url":"https://ankitsm08.github.io/posts/vs-code/"}</script><title>VS Code: My Coding BFF | Ankit Sharma</title><link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png"><link rel="manifest" href="/assets/img/favicons/site.webmanifest"><link rel="shortcut icon" href="/assets/img/favicons/favicon.ico"><meta name="apple-mobile-web-app-title" content="Ankit Sharma"><meta name="application-name" content="Ankit Sharma"><meta name="msapplication-TileColor" content="#da532c"><meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml"><meta name="theme-color" content="#ffffff"><link rel="preconnect" href="https://fonts.googleapis.com" ><link rel="dns-prefetch" href="https://fonts.googleapis.com" ><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="dns-prefetch" href="https://fonts.gstatic.com" ><link rel="preconnect" href="https://cdn.jsdelivr.net" ><link rel="dns-prefetch" href="https://cdn.jsdelivr.net" ><link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.27.20/dist/tocbot.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css"> <script type="text/javascript"> class ModeToggle { static get MODE_KEY() { return 'mode'; } static get MODE_ATTR() { return 'data-mode'; } static get DARK_MODE() { return 'dark'; } static get LIGHT_MODE() { return 'light'; } static get ID() { return 'mode-toggle'; } constructor() { let self = this;this.sysDarkPrefers.addEventListener('change', () => { if (self.hasMode) { self.clearMode(); } self.notify(); }); if (!this.hasMode) { return; } if (this.isDarkMode) { this.setDark(); } else { this.setLight(); } } get sysDarkPrefers() { return window.matchMedia('(prefers-color-scheme: dark)'); } get isPreferDark() { return this.sysDarkPrefers.matches; } get isDarkMode() { return this.mode === ModeToggle.DARK_MODE; } get hasMode() { return this.mode != null; } get mode() { return sessionStorage.getItem(ModeToggle.MODE_KEY); }get modeStatus() { if (this.hasMode) { return this.mode; } else { return this.isPreferDark ? ModeToggle.DARK_MODE : ModeToggle.LIGHT_MODE; } } setDark() { document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE); sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE); } setLight() { document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE); sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE); } clearMode() { document.documentElement.removeAttribute(ModeToggle.MODE_ATTR); sessionStorage.removeItem(ModeToggle.MODE_KEY); }notify() { window.postMessage( { direction: ModeToggle.ID, message: this.modeStatus }, '*' ); } flipMode() { if (this.hasMode) { this.clearMode(); } else { if (this.isPreferDark) { this.setLight(); } else { this.setDark(); } } this.notify(); } } const modeToggle = new ModeToggle(); </script><body><aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end"><header class="profile-wrapper"> <a href="/" id="avatar" class="rounded-circle"><img src="https://avatars.githubusercontent.com/u/133688015" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a><h1 class="site-title"> <a href="/">Ankit Sharma</a></h1><p class="site-subtitle fst-italic mb-0">Ank's Digital Playground: Science and Code Unleashed</p></header><nav class="flex-column flex-grow-1 w-100 ps-0"><ul class="nav"><li class="nav-item"> <a href="/" class="nav-link"> <i class="fa-fw fas fa-home"></i> <span>HOME</span> </a><li class="nav-item"> <a href="/all-posts/" class="nav-link"> <i class="fa-fw fas fa-archive"></i> <span>ALL POSTS</span> </a><li class="nav-item"> <a href="/categories/" class="nav-link"> <i class="fa-fw fas fa-stream"></i> <span>CATEGORIES</span> </a><li class="nav-item"> <a href="/archives/" class="nav-link"> <i class="fa-fw fas fa-archive"></i> <span>ARCHIVES</span> </a><li class="nav-item"> <a href="/tags/" class="nav-link"> <i class="fa-fw fas fa-tags"></i> <span>TAGS</span> </a><li class="nav-item"> <a href="/about/" class="nav-link"> <i class="fa-fw fas fa-info-circle"></i> <span>ABOUT</span> </a></ul></nav><div class="sidebar-bottom d-flex flex-wrap align-items-center w-100"> <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle"> <i class="fas fa-adjust"></i> </button> <span class="icon-border"></span> <a href="https://github.com/ankitsm08" aria-label="github" target="_blank" rel="noopener noreferrer" > <i class="fab fa-github"></i> </a> <a href="https://youtube.com/@enderanksh7342" aria-label="youtube" target="_blank" rel="noopener noreferrer" > <i class="fab fa-youtube"></i> </a> <a href="javascript:location.href = 'mailto:' + ['ankitsm08','gmail.com'].join('@')" aria-label="email" > <i class="fas fa-envelope"></i> </a> <a href="/feed.xml" aria-label="rss" > <i class="fas fa-rss"></i> </a></div></aside><div id="main-wrapper" class="d-flex justify-content-center"><div class="container d-flex flex-column px-xxl-5"><header id="topbar-wrapper" aria-label="Top Bar"><div id="topbar" class="d-flex align-items-center justify-content-between px-lg-3 h-100" ><nav id="breadcrumb" aria-label="Breadcrumb"> <span> <a href="/">Home</a> </span> <span>VS Code: My Coding BFF</span></nav><button type="button" id="sidebar-trigger" class="btn btn-link"> <i class="fas fa-bars fa-fw"></i> </button><div id="topbar-title"> Post</div><button type="button" id="search-trigger" class="btn btn-link"> <i class="fas fa-search fa-fw"></i> </button> <search id="search" class="align-items-center ms-3 ms-lg-0"> <i class="fas fa-search fa-fw"></i> <input class="form-control" id="search-input" type="search" aria-label="search" autocomplete="off" placeholder="Search..." > </search> <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">Cancel</button></div></header><div class="row flex-grow-1"><main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4"><article class="px-1"><header><h1 data-toc-skip>VS Code: My Coding BFF</h1><p class="post-desc fw-light mb-4">Tired of clunky IDEs? VS Code, a personal take on why it's a game-changer for programmers and hobbyists.</p><div class="post-meta text-muted"> <span> Posted <time data-ts="1716379200" data-df="ll" data-bs-toggle="tooltip" data-bs-placement="bottom" > May 22, 2024 </time> </span> <span> Updated <time data-ts="1716579579" data-df="ll" data-bs-toggle="tooltip" data-bs-placement="bottom" > May 25, 2024 </time> </span><div class="mt-3 mb-3"> <a href="/assets/img/posts/vs-code.webp" class="popup img-link preview-img blur"><img data-src="/assets/img/posts/vs-code.webp" alt="VS Code" width="1200" height="630" data-lqip="true" src="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoMAAgAAgA0JQBOgBulqaKnKgAA/v3fCucSSThsmldB+QUCXiFCEPNUrhvQ+iiAcQZbJtXTejdaB80yFBJqAAAA"></a><figcaption class="text-center pt-2 pb-2">VS Code</figcaption></div><div class="d-flex justify-content-between"> <span> By <em> <a href="https://github.com/ankitsm08">Ankit Sharma</a> </em> </span><div> <span> <em id="pageviews"> <i class="fas fa-spinner fa-spin small"></i> </em> views </span> <span class="readtime" data-bs-toggle="tooltip" data-bs-placement="bottom" title="1207 words" > <em>6 min</em> read</span></div></div></div></header><div class="content"><h1 id="visual-studio-code">Visual Studio Code</h1><p>Okay, so you’re probably thinking, “Another VS Code blog post? Really?” 🥱</p><p>But hear me out. I get it, there are tons of resources out there, but I wanted to share my personal experience with this amazing tool because it truly changed my coding life. Before VS Code, I was stuck with bloated IDEs that felt slower than a snail on a treadmill 🐌. But then I stumbled upon this <strong>lightweight gem</strong>, and everything changed. It’s fast, it’s powerful, and it’s incredibly customizable. I can tailor it to my exact needs. And the best part? It’s <strong>free</strong>! 😍</p><p>Don’t get me wrong, there are other great code editors out there, but VS Code has become my trusty coding companion, and I can’t imagine working without it. It’s like the Robin to my Batman, the Chewbacca to my Han Solo, the peanut butter to my jelly 🥜🍇.</p><p>Finding the perfect coding companion is like finding a soulmate. It’s got to be <strong>powerful</strong>, <strong>intuitive</strong>, and <strong>flexible</strong> enough to handle all your coding adventures. <a href="https://code.visualstudio.com">Visual Studio Code</a>, or VS Code for short, is not just a code editor; it’s a complete development environment that has become my go-to tool for everything from web development to Python scripting.</p><p>So, if your current code editor feels like trying to run a marathon in flip-flops, it’s time to switch to VS Code and feel the coding magic! ✨👩‍💻</p><hr /><h3 id="what-is-vs-code-"><span class="me-2">What is VS Code? 🤔</span><a href="#what-is-vs-code-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><p>But what exactly is VS Code? In simple terms, it’s a free, open-source code editor developed by Microsoft. It’s lightweight, lightning-fast, and packed with features that make coding a breeze. It’s designed to be highly customizable and supports a wide range of programming languages, including <code class="language-plaintext highlighter-rouge">JavaScript</code>, <code class="language-plaintext highlighter-rouge">TypeScript</code>, <code class="language-plaintext highlighter-rouge">Python</code>, <code class="language-plaintext highlighter-rouge">C</code>, <code class="language-plaintext highlighter-rouge">C++</code>, <code class="language-plaintext highlighter-rouge">Java</code> and even robotics and automation tools. (<em>Much more than that. The list wont fit here…</em>)</p><p><a href="/assets/img/posts/vs-code-workflow.webp" class="popup img-link shadow blur"><img data-src="/assets/img/posts/vs-code-workflow.webp" alt="VS Code Workflow" data-lqip="true" src="data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoTAA8APpE4l0eloyIhMAgAsBIJZwDE+E3J/gQGReLoxHdVnE2IAP7ytaIKroLUwbJtsSHH0LnihgaeeMqxkYbHNmdXILb9sJVTxmrYxW0x8O54ibzfY7rICkAHuIBaYDGAAA=" width="2000" ></a></p><hr /><h3 id="why-choose-vs-code-"><span class="me-2">Why choose VS Code? 🧐</span><a href="#why-choose-vs-code-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><p>Why VS Code? Well, let’s just say it’s the <em>Swiss Army knife of code editors</em>. It’s lightweight nature makes it easy to install and run on my machine, even with limited resources.</p><p>It offers a plethora of features that make coding a joy. We’re talking about intelligent code completion (<em>it literally knows what you’re thinking!</em>), debugging tools that help you catch those pesky errors.</p><p>Plus, it’s <strong>free</strong>! <em>Who doesn’t love free stuff?</em></p><p><a href="/assets/img/posts/vs-code-welcome.webp" class="popup img-link shadow blur"><img data-src="/assets/img/posts/vs-code-welcome.webp" alt="VS Code Welcome Screen" data-lqip="true" src="data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwAwCdASodAA8APpE6mEeloyKhMAgAsBIJaQAAetRuhIuggAAA/vTDvi6y0AzfrUaXwrr7fh3u+K1lUT32YIYrC3j6NphGCcdZAOR03l+oQAAA" width="2000" ></a></p><hr /><h3 id="features-️"><span class="me-2">Features 🛠️</span><a href="#features-️" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><p>VS Code offers a wide range of features that make it an ideal choice for developers. Here are some of the key features that I find particularly useful:</p><ul><li><strong>Code Editing</strong>: Syntax highlighting, autocompletion, and code formatting for a variety of programming languages.<li><strong>Debugging</strong>: Integrated debugger that allows you to step through your code, set breakpoints, and inspect variables.<li><strong>Version Control</strong>: Seamless integration with Git for easy codebase management and collaboration.<li><strong>Extensions</strong>: A vast library of extensions to enhance functionality.<li><strong>Themes</strong>: VWide range of themes to customize the appearance of your editor.</ul><p>Now, how does VS Code stack up against its competitors? Well, it’s a tough call. While Atom and Sublime Text have their own advantages, VS Code’s combination of features, performance, and extensibility makes it a clear winner in my book.</p><h3 id="extensions-️"><span class="me-2">Extensions ⚔️</span><a href="#extensions-️" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><p>VS Code boasts a vibrant ecosystem of <a href="https://marketplace.visualstudio.com/VSCode">extensions</a>. These extensions are like magical little sidekicks that can do everything from sprucing up your code with fancy icons to integrating AI-powered coding assistants that can write code for you (<em>yes, you read that right!</em>).</p><p><a href="/assets/img/posts/vscode-icons.gif" class="popup img-link shadow blur"><img data-src="/assets/img/posts/vscode-icons.gif" alt="VS Code Icons" data-lqip="true" src="data:image/webp;UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoKAAQAAgA0JZwCdAEO9p5AAP728j9xwNBFs2BnoYGf5xmq8/In8GGAAAA=" width="450" ></a></p><p>Here are some of my favorites:</p><ul><li><strong>Language-Specific Extension Packs</strong>: These packs bundle together all the essential tools and snippets you need to be a coding superhero.<li><strong>Code Formatters</strong>: To keep your code looking sharp and readable.<li><strong>Snippets</strong>: Speaking of snippets, VS Code has a ton of them, and you can even create your own custom ones. It’s like having a secret stash of coding shortcuts that make you look like a programming ninja.<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter"><strong>Jupyter Notebooks</strong></a>: Run and interact with Jupyter Notebooks right within VS Code. It’s like having a mad scientist’s lab in your code editor!<li><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"><strong>Live Server</strong></a>: Launch a local development server with live reload.<li><a href="https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles"><strong>Markdown Preview GitHub Styling</strong></a>: Preview markdown files as they appear on GitHub.</ul><hr /><h3 id="setup-️"><span class="me-2">Setup 🖥️</span><a href="#setup-️" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><p>Setting up VS Code is a piece of cake. Whether you’re on Windows, Linux, or macOS, it’s a simple download and install process:</p><h4 id="windows"><span class="me-2">Windows:</span><a href="#windows" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4><ol><li>Download the installer from <a href="https://code.visualstudio.com/Download">VS Code’s website</a>.<li>Run the installer and follow the prompts.<li>Launch VS Code and start coding!</ol><h4 id="linux"><span class="me-2">Linux:</span><a href="#linux" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4><ol><li>Download the .deb or .rpm package from the <a href="https://code.visualstudio.com/Download">website</a>.<li>Install it via terminal:</ol><div class="language-bash highlighter-rouge"><div class="code-header"> <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<!doctype html>
+<html lang="en" >
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7">
+ <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e">
+ <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+ <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
+  >
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="VS Code: My Coding BFF" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Tired of clunky IDEs? VS Code, a personal take on why it’s a game-changer for programmers and hobbyists." />
+<meta property="og:description" content="Tired of clunky IDEs? VS Code, a personal take on why it’s a game-changer for programmers and hobbyists." />
+<link rel="canonical" href="https://ankitsm08.github.io/posts/vs-code/" />
+<meta property="og:url" content="https://ankitsm08.github.io/posts/vs-code/" />
+<meta property="og:site_name" content="Ankit Sharma" />
+<meta property="og:image" content="https://ankitsm08.github.io/assets/img/posts/vs-code.webp" />
+<meta property="og:image:alt" content="VS Code" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-05-22T17:30:00+05:30" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://ankitsm08.github.io/assets/img/posts/vs-code.webp" />
+<meta name="twitter:image:alt" content="VS Code" />
+<meta property="twitter:title" content="VS Code: My Coding BFF" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-05-25T01:09:39+05:30","datePublished":"2024-05-22T17:30:00+05:30","description":"Tired of clunky IDEs? VS Code, a personal take on why it’s a game-changer for programmers and hobbyists.","headline":"VS Code: My Coding BFF","image":{"lqip":"data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoMAAgAAgA0JQBOgBulqaKnKgAA/v3fCucSSThsmldB+QUCXiFCEPNUrhvQ+iiAcQZbJtXTejdaB80yFBJqAAAA","alt":"VS Code","url":"https://ankitsm08.github.io/assets/img/posts/vs-code.webp","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://ankitsm08.github.io/posts/vs-code/"},"url":"https://ankitsm08.github.io/posts/vs-code/"}</script>
+ <title>VS Code: My Coding BFF | Ankit Sharma
+ </title>
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/favicons/site.webmanifest">
+<link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="Ankit Sharma">
+<meta name="application-name" content="Ankit Sharma">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+      <link rel="preconnect" href="https://fonts.googleapis.com" >
+      <link rel="dns-prefetch" href="https://fonts.googleapis.com" >
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="dns-prefetch" href="https://fonts.gstatic.com" >
+      <link rel="preconnect" href="https://cdn.jsdelivr.net" >
+      <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" >
+<link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.27.20/dist/tocbot.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
+<script type="text/javascript">
+  class ModeToggle {
+    static get MODE_KEY() {
+      return 'mode';
+    }
+    static get MODE_ATTR() {
+      return 'data-mode';
+    }
+    static get DARK_MODE() {
+      return 'dark';
+    }
+    static get LIGHT_MODE() {
+      return 'light';
+    }
+    static get ID() {
+      return 'mode-toggle';
+    }
+    constructor() {
+      let self = this;this.sysDarkPrefers.addEventListener('change', () => {
+        if (self.hasMode) {
+          self.clearMode();
+        }
+        self.notify();
+      });
+      if (!this.hasMode) {
+        return;
+      }
+      if (this.isDarkMode) {
+        this.setDark();
+      } else {
+        this.setLight();
+      }
+    }
+    get sysDarkPrefers() {
+      return window.matchMedia('(prefers-color-scheme: dark)');
+    }
+    get isPreferDark() {
+      return this.sysDarkPrefers.matches;
+    }
+    get isDarkMode() {
+      return this.mode === ModeToggle.DARK_MODE;
+    }
+    get hasMode() {
+      return this.mode != null;
+    }
+    get mode() {
+      return sessionStorage.getItem(ModeToggle.MODE_KEY);
+    }get modeStatus() {
+      if (this.hasMode) {
+        return this.mode;
+      } else {
+        return this.isPreferDark ? ModeToggle.DARK_MODE : ModeToggle.LIGHT_MODE;
+      }
+    }
+    setDark() {
+      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE);
+      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
+    }
+    setLight() {
+      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE);
+      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
+    }
+    clearMode() {
+      document.documentElement.removeAttribute(ModeToggle.MODE_ATTR);
+      sessionStorage.removeItem(ModeToggle.MODE_KEY);
+    }notify() {
+      window.postMessage(
+        {
+          direction: ModeToggle.ID,
+          message: this.modeStatus
+        },
+        '*'
+      );
+    }
+    flipMode() {
+      if (this.hasMode) {
+        this.clearMode();
+      } else {
+        if (this.isPreferDark) {
+          this.setLight();
+        } else {
+          this.setDark();
+        }
+      }
+      this.notify();
+    }
+  }
+  const modeToggle = new ModeToggle();
+</script>
+ <body>
+<aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+  <header class="profile-wrapper">
+      <a href="/" id="avatar" class="rounded-circle"><img src="https://avatars.githubusercontent.com/u/133688015" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
+     <h1 class="site-title">
+        <a href="/">Ankit Sharma</a>
+     </h1>
+     <p class="site-subtitle fst-italic mb-0">Ank's Digital Playground: Science and Code Unleashed</p>
+   </header>
+   <nav class="flex-column flex-grow-1 w-100 ps-0">
+     <ul class="nav">
+       <li class="nav-item">
+          <a href="/" class="nav-link">
+            <i class="fa-fw fas fa-home"></i>
+            <span>HOME</span>
+          </a>
+         <li class="nav-item">
+            <a href="/all-posts/" class="nav-link">
+              <i class="fa-fw fas fa-archive"></i>
+              <span>ALL POSTS</span>
+            </a>
+         <li class="nav-item">
+            <a href="/categories/" class="nav-link">
+              <i class="fa-fw fas fa-stream"></i>
+              <span>CATEGORIES</span>
+            </a>
+         <li class="nav-item">
+            <a href="/archives/" class="nav-link">
+              <i class="fa-fw fas fa-archive"></i>
+              <span>ARCHIVES</span>
+            </a>
+         <li class="nav-item">
+            <a href="/tags/" class="nav-link">
+              <i class="fa-fw fas fa-tags"></i>
+              <span>TAGS</span>
+            </a>
+         <li class="nav-item">
+            <a href="/about/" class="nav-link">
+              <i class="fa-fw fas fa-info-circle"></i>
+              <span>ABOUT</span>
+            </a>
+     </ul>
+   </nav>
+   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
+        <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+          <i class="fas fa-adjust"></i>
+        </button>
+          <span class="icon-border"></span>
+          <a
+            href="https://github.com/ankitsm08"
+            aria-label="github"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://youtube.com/@enderanksh7342"
+            aria-label="youtube"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a
+            href="javascript:location.href = 'mailto:' + ['ankitsm08','gmail.com'].join('@')"
+            aria-label="email"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a
+            href="/feed.xml"
+            aria-label="rss"
+          >
+            <i class="fas fa-rss"></i>
+          </a>
+   </div>
+ </aside>
+   <div id="main-wrapper" class="d-flex justify-content-center">
+     <div class="container d-flex flex-column px-xxl-5">
+<header id="topbar-wrapper" aria-label="Top Bar">
+ <div
+    id="topbar"
+    class="d-flex align-items-center justify-content-between px-lg-3 h-100"
+  >
+   <nav id="breadcrumb" aria-label="Breadcrumb">
+            <span>
+              <a href="/">Home</a>
+            </span>
+              <span>VS Code: My Coding BFF</span>
+   </nav>
+    <button type="button" id="sidebar-trigger" class="btn btn-link">
+      <i class="fas fa-bars fa-fw"></i>
+    </button>
+   <div id="topbar-title">
+      Post
+   </div>
+    <button type="button" id="search-trigger" class="btn btn-link">
+      <i class="fas fa-search fa-fw"></i>
+    </button>
+    <search id="search" class="align-items-center ms-3 ms-lg-0">
+      <i class="fas fa-search fa-fw"></i>
+      <input
+        class="form-control"
+        id="search-input"
+        type="search"
+        aria-label="search"
+        autocomplete="off"
+        placeholder="Search..."
+      >
+    </search>
+    <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">Cancel</button>
+ </div>
+</header>
+       <div class="row flex-grow-1">
+         <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
+<article class="px-1">
+<header>
+   <h1 data-toc-skip>VS Code: My Coding BFF</h1>
+     <p class="post-desc fw-light mb-4">Tired of clunky IDEs? VS Code, a personal take on why it's a game-changer for programmers and hobbyists.</p>
+   <div class="post-meta text-muted">
+      <span>
+        Posted
+<time
+  data-ts="1716379200"
+  data-df="ll"
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+>
+  May 22, 2024
+</time>
+      </span>
+        <span>
+          Updated
+<time
+  data-ts="1716579579"
+  data-df="ll"
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+>
+  May 25, 2024
+</time>
+        </span>
+       <div class="mt-3 mb-3">
+          <a href="/assets/img/posts/vs-code.webp" class="popup img-link preview-img blur"><img data-src="/assets/img/posts/vs-code.webp"  alt="VS Code" width="1200" height="630" data-lqip="true" src="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoMAAgAAgA0JQBOgBulqaKnKgAA/v3fCucSSThsmldB+QUCXiFCEPNUrhvQ+iiAcQZbJtXTejdaB80yFBJqAAAA"></a><figcaption class="text-center pt-2 pb-2">VS Code</figcaption></div>
+     <div class="d-flex justify-content-between">
+        <span>
+          By
+          <em>
+              <a href="https://github.com/ankitsm08">Ankit Sharma</a>
+          </em>
+        </span>
+       <div>
+            <span>
+              <em id="pageviews">
+                <i class="fas fa-spinner fa-spin small"></i>
+              </em>
+              views
+            </span>
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="1207 words"
+>
+  <em>6 min</em> read</span>
+       </div>
+     </div>
+   </div>
+ </header>
+ <div class="content">
+   <h1 id="visual-studio-code">Visual Studio Code</h1>
+<p>Okay, so you’re probably thinking, “Another VS Code blog post? Really?” 🥱</p>
+<p>But hear me out. I get it, there are tons of resources out there, but I wanted to share my personal experience with this amazing tool because it truly changed my coding life. Before VS Code, I was stuck with bloated IDEs that felt slower than a snail on a treadmill 🐌. But then I stumbled upon this <strong>lightweight gem</strong>, and everything changed. It’s fast, it’s powerful, and it’s incredibly customizable. I can tailor it to my exact needs. And the best part? It’s <strong>free</strong>! 😍</p>
+<p>Don’t get me wrong, there are other great code editors out there, but VS Code has become my trusty coding companion, and I can’t imagine working without it. It’s like the Robin to my Batman, the Chewbacca to my Han Solo, the peanut butter to my jelly 🥜🍇.</p>
+<p>Finding the perfect coding companion is like finding a soulmate. It’s got to be <strong>powerful</strong>, <strong>intuitive</strong>, and <strong>flexible</strong> enough to handle all your coding adventures. <a href="https://code.visualstudio.com">Visual Studio Code</a>, or VS Code for short, is not just a code editor; it’s a complete development environment that has become my go-to tool for everything from web development to Python scripting.</p>
+<p>So, if your current code editor feels like trying to run a marathon in flip-flops, it’s time to switch to VS Code and feel the coding magic! ✨👩‍💻</p>
+<hr />
+<h3 id="what-is-vs-code-"><span class="me-2">What is VS Code? 🤔</span><a href="#what-is-vs-code-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>But what exactly is VS Code? In simple terms, it’s a free, open-source code editor developed by Microsoft. It’s lightweight, lightning-fast, and packed with features that make coding a breeze. It’s designed to be highly customizable and supports a wide range of programming languages, including <code class="language-plaintext highlighter-rouge">JavaScript</code>, <code class="language-plaintext highlighter-rouge">TypeScript</code>, <code class="language-plaintext highlighter-rouge">Python</code>, <code class="language-plaintext highlighter-rouge">C</code>, <code class="language-plaintext highlighter-rouge">C++</code>, <code class="language-plaintext highlighter-rouge">Java</code> and even robotics and automation tools. (<em>Much more than that. The list wont fit here…</em>)</p>
+<p><a href="/assets/img/posts/vs-code-workflow.webp" class="popup img-link shadow blur"><img data-src="/assets/img/posts/vs-code-workflow.webp" alt="VS Code Workflow" data-lqip="true" src="data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoTAA8APpE4l0eloyIhMAgAsBIJZwDE+E3J/gQGReLoxHdVnE2IAP7ytaIKroLUwbJtsSHH0LnihgaeeMqxkYbHNmdXILb9sJVTxmrYxW0x8O54ibzfY7rICkAHuIBaYDGAAA=" width="2000" ></a></p>
+<hr />
+<h3 id="why-choose-vs-code-"><span class="me-2">Why choose VS Code? 🧐</span><a href="#why-choose-vs-code-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>Why VS Code? Well, let’s just say it’s the <em>Swiss Army knife of code editors</em>. It’s lightweight nature makes it easy to install and run on my machine, even with limited resources.</p>
+<p>It offers a plethora of features that make coding a joy. We’re talking about intelligent code completion (<em>it literally knows what you’re thinking!</em>), debugging tools that help you catch those pesky errors.</p>
+<p>Plus, it’s <strong>free</strong>! <em>Who doesn’t love free stuff?</em></p>
+<p><a href="/assets/img/posts/vs-code-welcome.webp" class="popup img-link shadow blur"><img data-src="/assets/img/posts/vs-code-welcome.webp" alt="VS Code Welcome Screen" data-lqip="true" src="data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwAwCdASodAA8APpE6mEeloyKhMAgAsBIJaQAAetRuhIuggAAA/vTDvi6y0AzfrUaXwrr7fh3u+K1lUT32YIYrC3j6NphGCcdZAOR03l+oQAAA" width="2000" ></a></p>
+<hr />
+<h3 id="features-️"><span class="me-2">Features 🛠️</span><a href="#features-️" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>VS Code offers a wide range of features that make it an ideal choice for developers. Here are some of the key features that I find particularly useful:</p>
+<ul>
+ <li><strong>Code Editing</strong>: Syntax highlighting, autocompletion, and code formatting for a variety of programming languages.
+ <li><strong>Debugging</strong>: Integrated debugger that allows you to step through your code, set breakpoints, and inspect variables.
+ <li><strong>Version Control</strong>: Seamless integration with Git for easy codebase management and collaboration.
+ <li><strong>Extensions</strong>: A vast library of extensions to enhance functionality.
+ <li><strong>Themes</strong>: VWide range of themes to customize the appearance of your editor.
+</ul>
+<p>Now, how does VS Code stack up against its competitors? Well, it’s a tough call. While Atom and Sublime Text have their own advantages, VS Code’s combination of features, performance, and extensibility makes it a clear winner in my book.</p>
+<h3 id="extensions-️"><span class="me-2">Extensions ⚔️</span><a href="#extensions-️" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>VS Code boasts a vibrant ecosystem of <a href="https://marketplace.visualstudio.com/VSCode">extensions</a>. These extensions are like magical little sidekicks that can do everything from sprucing up your code with fancy icons to integrating AI-powered coding assistants that can write code for you (<em>yes, you read that right!</em>).</p>
+<p><a href="/assets/img/posts/vscode-icons.gif" class="popup img-link shadow blur"><img data-src="/assets/img/posts/vscode-icons.gif" alt="VS Code Icons" data-lqip="true" src="data:image/webp;UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoKAAQAAgA0JZwCdAEO9p5AAP728j9xwNBFs2BnoYGf5xmq8/In8GGAAAA=" width="450" ></a></p>
+<p>Here are some of my favorites:</p>
+<ul>
+ <li><strong>Language-Specific Extension Packs</strong>: These packs bundle together all the essential tools and snippets you need to be a coding superhero.
+ <li><strong>Code Formatters</strong>: To keep your code looking sharp and readable.
+ <li><strong>Snippets</strong>: Speaking of snippets, VS Code has a ton of them, and you can even create your own custom ones. It’s like having a secret stash of coding shortcuts that make you look like a programming ninja.
+ <li><a href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter"><strong>Jupyter Notebooks</strong></a>: Run and interact with Jupyter Notebooks right within VS Code. It’s like having a mad scientist’s lab in your code editor!
+ <li><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"><strong>Live Server</strong></a>: Launch a local development server with live reload.
+ <li><a href="https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles"><strong>Markdown Preview GitHub Styling</strong></a>: Preview markdown files as they appear on GitHub.
+</ul>
+<hr />
+<h3 id="setup-️"><span class="me-2">Setup 🖥️</span><a href="#setup-️" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>Setting up VS Code is a piece of cake. Whether you’re on Windows, Linux, or macOS, it’s a simple download and install process:</p>
+<h4 id="windows"><span class="me-2">Windows:</span><a href="#windows" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ol>
+ <li>Download the installer from <a href="https://code.visualstudio.com/Download">VS Code’s website</a>.
+ <li>Run the installer and follow the prompts.
+ <li>Launch VS Code and start coding!
+</ol>
+<h4 id="linux"><span class="me-2">Linux:</span><a href="#linux" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ol>
+ <li>Download the .deb or .rpm package from the <a href="https://code.visualstudio.com/Download">website</a>.
+ <li>Install it via terminal:
+</ol>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 </pre><td class="rouge-code"><pre><span class="nb">sudo </span>dpkg <span class="nt">-i</span> &lt;file&gt;.deb  <span class="c"># For Debian-based systems like Ubuntu</span>
 <span class="nb">sudo </span>rpm <span class="nt">-i</span> &lt;file&gt;.rpm   <span class="c"># For RPM-based systems like RH, Fedora, SUSE</span>
-</pre></table></code></div></div><ol><li>Launch VS Code.</ol><h4 id="macos"><span class="me-2">macOS:</span><a href="#macos" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4><ol><li>Download the .dmg file from the <a href="https://code.visualstudio.com/Download">website</a>.<li>Open the .dmg file and drag VS Code to the Applications folder.<li>Launch VS Code from the Applications folder.</ol><h3 id="themes-i-prefer-"><span class="me-2">Themes I Prefer 🎨</span><a href="#themes-i-prefer-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><p>Speaking of aesthetics, I’m a sucker for visually appealing code. I’m a fan of dark themes, and VS Code offers several options that I find particularly appealing. Here are some of my favourites:</p><ul><li><a href="https://marketplace.visualstudio.com/items?itemName=eserozvataf.one-dark-pro-monokai-darker"><strong>One Dark Pro Monokai Darker</strong></a>: Darker: Clean, sleek, and professional appearance.<li><a href="https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons"><strong>vscode-icons</strong></a>: Custom icons for easier file navigation.<li><a href="https://marketplace.visualstudio.com/items?itemName=NarasimaPandiyan.jetbrainsmono"><strong>Jetbrains Mono Font</strong></a>: Crisp and highly readable, perfect for long coding sessions.</ul><p><a href="/assets/img/posts/peacock-theme.webp" class="popup img-link blur"><img data-src="/assets/img/posts/peacock-theme.webp" alt="VS Code Themes" data-lqip="true" src="data:image/webp;base64,UklGRqwAAABXRUJQVlA4TJ8AAAAvB8AAEOgNpLUBg8ZIaNQ/TfopTbURrKVfEEiMmuM/ksgdHkKGklq7ruJBwTg3xUGOgwiSYrTMkAAAil0UAhEwJdEwRvF/WciCIZKQAiCIBHi7/L1gfGZfLyYiAsAROLrmyISIsQtHoFEENhsr/XSctvZX/8JSVCdleIswGRggMJIkszY3ds2Ivoff5RWS+5vSyIo6rsUcGbNmckH7yIA" width="2000"></a></p><p>There are many more so suit your needs!</p><hr /><h3 id="git-integration-️"><span class="me-2">GIT Integration 🗂️</span><a href="#git-integration-️" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><p>VS Code’s seamless integration with Git allows you to manage your code with ease. You can commit changes, push code to remote repositories, and even resolve merge conflicts right within the editor. Here are some of the key features of VS Code’s Git integration:</p><h4 id="git-features"><span class="me-2">GIT Features</span><a href="#git-features" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4><ul><li><strong>Version Control</strong>: Manage different versions of your codebase.<li><strong>Branching</strong>: Create and manage different branches of your codebase, making it easy to work on multiple features simultaneously.<li><strong>Committing</strong>: Commit changes to your Git repository with ease.</ul><p><a href="/assets/img/posts/git.webp" class="popup img-link blur"><img data-src="/assets/img/posts/git.webp" alt="GIT Integration" data-lqip="true" src="data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAABwAQCdASoKAAcAAgA0JZQCdAFAAAD+9nmQrAvnhcYchE7KBPWHjgAA" width="500"></a></p><h4 id="git-commands"><span class="me-2">Git Commands</span><a href="#git-commands" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4><div class="language-bash highlighter-rouge"><div class="code-header"> <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></table></code></div></div>
+<ol>
+ <li>Launch VS Code.
+</ol>
+<h4 id="macos"><span class="me-2">macOS:</span><a href="#macos" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ol>
+ <li>Download the .dmg file from the <a href="https://code.visualstudio.com/Download">website</a>.
+ <li>Open the .dmg file and drag VS Code to the Applications folder.
+ <li>Launch VS Code from the Applications folder.
+</ol>
+<h3 id="themes-i-prefer-"><span class="me-2">Themes I Prefer 🎨</span><a href="#themes-i-prefer-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>Speaking of aesthetics, I’m a sucker for visually appealing code. I’m a fan of dark themes, and VS Code offers several options that I find particularly appealing. Here are some of my favourites:</p>
+<ul>
+ <li><a href="https://marketplace.visualstudio.com/items?itemName=eserozvataf.one-dark-pro-monokai-darker"><strong>One Dark Pro Monokai Darker</strong></a>: Darker: Clean, sleek, and professional appearance.
+ <li><a href="https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons"><strong>vscode-icons</strong></a>: Custom icons for easier file navigation.
+ <li><a href="https://marketplace.visualstudio.com/items?itemName=NarasimaPandiyan.jetbrainsmono"><strong>Jetbrains Mono Font</strong></a>: Crisp and highly readable, perfect for long coding sessions.
+</ul>
+<p><a href="/assets/img/posts/peacock-theme.webp" class="popup img-link  blur"><img data-src="/assets/img/posts/peacock-theme.webp" alt="VS Code Themes" data-lqip="true" src="data:image/webp;base64,UklGRqwAAABXRUJQVlA4TJ8AAAAvB8AAEOgNpLUBg8ZIaNQ/TfopTbURrKVfEEiMmuM/ksgdHkKGklq7ruJBwTg3xUGOgwiSYrTMkAAAil0UAhEwJdEwRvF/WciCIZKQAiCIBHi7/L1gfGZfLyYiAsAROLrmyISIsQtHoFEENhsr/XSctvZX/8JSVCdleIswGRggMJIkszY3ds2Ivoff5RWS+5vSyIo6rsUcGbNmckH7yIA" width="2000"></a></p>
+<p>There are many more so suit your needs!</p>
+<hr />
+<h3 id="git-integration-️"><span class="me-2">GIT Integration 🗂️</span><a href="#git-integration-️" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>VS Code’s seamless integration with Git allows you to manage your code with ease. You can commit changes, push code to remote repositories, and even resolve merge conflicts right within the editor. Here are some of the key features of VS Code’s Git integration:</p>
+<h4 id="git-features"><span class="me-2">GIT Features</span><a href="#git-features" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+ <li><strong>Version Control</strong>: Manage different versions of your codebase.
+ <li><strong>Branching</strong>: Create and manage different branches of your codebase, making it easy to work on multiple features simultaneously.
+ <li><strong>Committing</strong>: Commit changes to your Git repository with ease.
+</ul>
+<p><a href="/assets/img/posts/git.webp" class="popup img-link  blur"><img data-src="/assets/img/posts/git.webp" alt="GIT Integration" data-lqip="true" src="data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAABwAQCdASoKAAcAAgA0JZQCdAFAAAD+9nmQrAvnhcYchE7KBPWHjgAA" width="500"></a></p>
+<h4 id="git-commands"><span class="me-2">Git Commands</span><a href="#git-commands" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 </pre><td class="rouge-code"><pre><span class="c"># Initialize a new Git repository</span>
 git init
-</pre></table></code></div></div><div class="language-bash highlighter-rouge"><div class="code-header"> <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></table></code></div></div>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 </pre><td class="rouge-code"><pre><span class="c"># Add all files to the staging area</span>
 git add <span class="nb">.</span>
-</pre></table></code></div></div><div class="language-bash highlighter-rouge"><div class="code-header"> <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></table></code></div></div>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 </pre><td class="rouge-code"><pre><span class="c"># Commit the changes</span>
 git commit <span class="nt">-m</span> <span class="s2">"Initial commit"</span>
-</pre></table></code></div></div><div class="language-bash highlighter-rouge"><div class="code-header"> <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></table></code></div></div>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 </pre><td class="rouge-code"><pre><span class="c"># Add a remote repository</span>
 git remote add origin https://github.com/yourusername/your-repo.git
-</pre></table></code></div></div><div class="language-bash highlighter-rouge"><div class="code-header"> <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></table></code></div></div>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 </pre><td class="rouge-code"><pre><span class="c"># Push changes to the remote repository</span>
 git push <span class="nt">-u</span> origin main
-</pre></table></code></div></div><h3 id="ai-integration-"><span class="me-2">AI Integration 🤖</span><a href="#ai-integration-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><p>And for the icing on the cake - remember those AI-powered coding sidekicks I mentioned? VS Code now has AI integration! With the help of the ‘GitHub Copilot’ extension, you can get real-time suggestions and even generate entire code blocks, making coding faster and more efficient.</p><p><a href="/assets/img/posts/vs-code-ai.gif" class="popup img-link blur"><img data-src="/assets/img/posts/vs-code-ai.gif" alt="AI Integration" data-lqip="true" src="data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAgA0JaQAA3AA/vsXQABSSUZGJAAAAFdFQlBWUDggGAAAADABAJ0BKgEAAQACADQlpAADcAD++xdAAA==" width="720"></a></p><p>Well, extensions like Codeium, Tabnine, and GitHub Copilot can analyze your code and provide intelligent suggestions, saving you time and effort. It’s like having a personal coding tutor on call!</p><hr /><h3 id="conclusion-"><span class="me-2">Conclusion 🎉</span><a href="#conclusion-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><p>So, in conclusion, VS Code is a powerful, versatile, and customizable code editor that has become an indispensable part of my development workflow. Its features, extensions, and ease of use make it a top choice for developers of all levels. Whether you’re a seasoned pro or just starting out, give VS Code a shot 🚀. You won’t be disappointed! Who knows, it might just become the soulmate you’ve been searching for all along.</p><p>Do check out the <a href="https://code.visualstudio.com/docs">documentation</a> for further details.</p><p><strong>Tip:</strong> <em>Open current folder as a project directly from terminal by executing the command given below:</em></p><div class="language-bash highlighter-rouge"><div class="code-header"> <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></table></code></div></div>
+<h3 id="ai-integration-"><span class="me-2">AI Integration 🤖</span><a href="#ai-integration-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>And for the icing on the cake - remember those AI-powered coding sidekicks I mentioned? VS Code now has AI integration! With the help of the ‘GitHub Copilot’ extension, you can get real-time suggestions and even generate entire code blocks, making coding faster and more efficient.</p>
+<p><a href="/assets/img/posts/vs-code-ai.gif" class="popup img-link  blur"><img data-src="/assets/img/posts/vs-code-ai.gif" alt="AI Integration" data-lqip="true" src="data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAgA0JaQAA3AA/vsXQABSSUZGJAAAAFdFQlBWUDggGAAAADABAJ0BKgEAAQACADQlpAADcAD++xdAAA==" width="720"></a></p>
+<p>Well, extensions like Codeium, Tabnine, and GitHub Copilot can analyze your code and provide intelligent suggestions, saving you time and effort. It’s like having a personal coding tutor on call!</p>
+<hr />
+<h3 id="conclusion-"><span class="me-2">Conclusion 🎉</span><a href="#conclusion-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>So, in conclusion, VS Code is a powerful, versatile, and customizable code editor that has become an indispensable part of my development workflow. Its features, extensions, and ease of use make it a top choice for developers of all levels. Whether you’re a seasoned pro or just starting out, give VS Code a shot 🚀. You won’t be disappointed! Who knows, it might just become the soulmate you’ve been searching for all along.</p>
+<p>Do check out the <a href="https://code.visualstudio.com/docs">documentation</a> for further details.</p>
+<p><strong>Tip:</strong> <em>Open current folder as a project directly from terminal by executing the command given below:</em></p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre><td class="rouge-code"><pre>code <span class="nb">.</span>
-</pre></table></code></div></div><hr /><p><em>Stay tuned for more updates and insights on productivity tools and techniques!</em></p></div><div class="post-tail-wrapper text-muted"><div class="post-meta mb-3"> <i class="far fa-folder-open fa-fw me-1"></i> <a href="/categories/tools/">Tools</a>, <a href="/categories/software/">Software</a></div><div class="post-tags"> <i class="fa fa-tags fa-fw me-1"></i> <a href="/tags/vs-code/" class="post-tag no-text-decoration" >VS Code</a> <a href="/tags/programming/" class="post-tag no-text-decoration" >Programming</a> <a href="/tags/productivity/" class="post-tag no-text-decoration" >Productivity</a></div><div class=" post-tail-bottom d-flex justify-content-between align-items-center mt-5 pb-2 " ><div class="license-wrapper"> This post is licensed under <a href="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0 </a> by the author.</div><div class="share-wrapper d-flex align-items-center"> <span class="share-label text-muted">Share</span> <span class="share-icons"> <a href="https://twitter.com/intent/tweet?text=VS%20Code:%20My%20Coding%20BFF%20-%20Ankit%20Sharma&url=https%3A%2F%2Fankitsm08.github.io%2Fposts%2Fvs-code%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter"> <i class="fa-fw fa-brands fa-square-x-twitter"></i> </a> <a href="https://www.facebook.com/sharer/sharer.php?title=VS%20Code:%20My%20Coding%20BFF%20-%20Ankit%20Sharma&u=https%3A%2F%2Fankitsm08.github.io%2Fposts%2Fvs-code%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook"> <i class="fa-fw fab fa-facebook-square"></i> </a> <a href="https://t.me/share/url?url=https%3A%2F%2Fankitsm08.github.io%2Fposts%2Fvs-code%2F&text=VS%20Code:%20My%20Coding%20BFF%20-%20Ankit%20Sharma" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram"> <i class="fa-fw fab fa-telegram"></i> </a> <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fankitsm08.github.io%2Fposts%2Fvs-code%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin" aria-label="Linkedin"> <i class="fa-fw fab fa-linkedin"></i> </a> <button id="copy-link" aria-label="Copy link" class="btn small" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy link" data-title-succeed="Link copied successfully!" > <i class="fa-fw fas fa-link pe-none fs-6"></i> </button> </span></div></div></div></article></main><aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 mb-5 text-muted"><div class="access"><section id="access-lastmod"><h2 class="panel-heading">Recently Updated</h2><ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2"><li class="text-truncate lh-lg"> <a href="/posts/isc-computer-project/">ISC Java CS Project Repository</a><li class="text-truncate lh-lg"> <a href="/posts/common-names-in-organic-chemistry/">Common Names in Organic Chemistry</a><li class="text-truncate lh-lg"> <a href="/posts/vs-code/">VS Code: My Coding BFF</a><li class="text-truncate lh-lg"> <a href="/posts/hello-world/">Hello World!</a><li class="text-truncate lh-lg"> <a href="/posts/obsidian/">Obsidian: Master Your Note-Taking</a></ul></section><section><h2 class="panel-heading">Trending Tags</h2><div class="d-flex flex-wrap mt-3 mb-1 me-3"> <a class="post-tag btn btn-outline-primary" href="/tags/learning/">Learning</a> <a class="post-tag btn btn-outline-primary" href="/tags/productivity/">Productivity</a> <a class="post-tag btn btn-outline-primary" href="/tags/programming/">Programming</a> <a class="post-tag btn btn-outline-primary" href="/tags/ank/">Ank</a> <a class="post-tag btn btn-outline-primary" href="/tags/java/">Java</a> <a class="post-tag btn btn-outline-primary" href="/tags/my-life/">My Life</a> <a class="post-tag btn btn-outline-primary" href="/tags/note-taking/">Note-Taking</a> <a class="post-tag btn btn-outline-primary" href="/tags/obsidian/">Obsidian</a> <a class="post-tag btn btn-outline-primary" href="/tags/organic-chemistry/">Organic Chemistry</a> <a class="post-tag btn btn-outline-primary" href="/tags/school/">School</a></div></section></div><section id="toc-wrapper" class="d-none ps-0 pe-4"><h2 class="panel-heading ps-3 mb-2">Contents</h2><nav id="toc"></nav></section></aside></div><div class="row"><div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4"><aside id="related-posts" aria-labelledby="related-label"><h3 class="mb-4" id="related-label">Further Reading</h3><nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4"><article class="col"> <a href="/posts/obsidian/" class="post-preview card h-100"><div class="card-body"> <time data-ts="1716143400" data-df="ll" > May 20, 2024 </time><h4 class="pt-0 my-2">Obsidian: Master Your Note-Taking</h4><div class="text-muted"><p>A versatile note-taking tool for organizing thoughts, fostering connections, and boosting productivity 🚀.</p></div></div></a></article><article class="col"> <a href="/posts/isc-computer-project/" class="post-preview card h-100"><div class="card-body"> <time data-ts="1727006400" data-df="ll" > Sep 22, 2024 </time><h4 class="pt-0 my-2">ISC Java CS Project Repository</h4><div class="text-muted"><p>A comprehensive and time-saving resource for the Class 12 ISC Computer Science Java project. This repository includes questions, algorithms, Java programs, test outputs, and a ready-to-print Word d...</p></div></div></a></article></nav></aside><nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation"> <a href="/posts/obsidian/" class="btn btn-outline-primary" aria-label="Older" ><p>Obsidian: Master Your Note-Taking</p></a> <a href="/posts/common-names-in-organic-chemistry/" class="btn btn-outline-primary" aria-label="Newer" ><p>Common Names in Organic Chemistry</p></a></nav><footer aria-label="Site Info" class=" d-flex flex-column justify-content-center text-muted flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3 " ><p>© <time>2024</time> <a href="https://github.com/ankitsm08">Ankit Sharma</a>. <span data-bs-toggle="tooltip" data-bs-placement="top" title="Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author." >Some rights reserved.</span></p></footer></div></div><div id="search-result-wrapper" class="d-flex justify-content-center d-none"><div class="col-11 content"><div id="search-hints"><section><h2 class="panel-heading">Trending Tags</h2><div class="d-flex flex-wrap mt-3 mb-1 me-3"> <a class="post-tag btn btn-outline-primary" href="/tags/learning/">Learning</a> <a class="post-tag btn btn-outline-primary" href="/tags/productivity/">Productivity</a> <a class="post-tag btn btn-outline-primary" href="/tags/programming/">Programming</a> <a class="post-tag btn btn-outline-primary" href="/tags/ank/">Ank</a> <a class="post-tag btn btn-outline-primary" href="/tags/java/">Java</a> <a class="post-tag btn btn-outline-primary" href="/tags/my-life/">My Life</a> <a class="post-tag btn btn-outline-primary" href="/tags/note-taking/">Note-Taking</a> <a class="post-tag btn btn-outline-primary" href="/tags/obsidian/">Obsidian</a> <a class="post-tag btn btn-outline-primary" href="/tags/organic-chemistry/">Organic Chemistry</a> <a class="post-tag btn btn-outline-primary" href="/tags/school/">School</a></div></section></div><div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div></div></div></div><aside aria-label="Scroll to Top"> <button id="back-to-top" type="button" class="btn btn-lg btn-box-shadow"> <i class="fas fa-angle-up"></i> </button></aside></div><div id="mask"></div><aside id="notification" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-animation="true" data-bs-autohide="false" ><div class="toast-header"> <button type="button" class="btn-close ms-auto" data-bs-dismiss="toast" aria-label="Close" ></button></div><div class="toast-body text-center pt-0"><p class="px-2 mb-3">A new version of content is available.</p><button type="button" class="btn btn-primary" aria-label="Update"> Update </button></div></aside><script src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.11/dayjs.min.js,npm/dayjs@1.11.11/locale/en.min.js,npm/dayjs@1.11.11/plugin/relativeTime.min.js,npm/dayjs@1.11.11/plugin/localizedFormat.min.js,npm/tocbot@4.27.20/dist/tocbot.min.js"></script> <script src="/assets/js/dist/post.min.js"></script> <script> let pv = document.getElementById('pageviews'); if (pv !== null) { const uri = location.pathname.replace(/\/$/, ''); const url = `https://ankitsm08.goatcounter.com/counter/${encodeURIComponent(uri)}.json`; fetch(url) .then((response) => response.json()) .then((data) => { const count = data.count.replace(/\s/g, ''); pv.innerText = new Intl.NumberFormat().format(count); }) .catch((error) => { pv.innerText = '1'; }); } </script> <script defer src="/assets/js/dist/app.min.js"></script> <script async src="https://gc.zgo.at/count.js" data-goatcounter="https://ankitsm08.goatcounter.com/count" ></script> <script>SimpleJekyllSearch({ searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('search-results'), json: '/assets/js/data/search.json', searchResultTemplate: '<article class="px-1 px-sm-2 px-lg-4 px-xl-0"><header><h2><a href="{url}">{title}</a></h2><div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1"> {categories} {tags}</div></header><p>{snippet}</p></article>', noResultsText: '<p class="mt-5">Oops! No results found.</p>', templateMiddleware: function(prop, value, template) { if (prop === 'categories') { if (value === '') { return `${value}`; } else { return `<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`; } } if (prop === 'tags') { if (value === '') { return `${value}`; } else { return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`; } } } }); </script>
+</pre></table></code></div></div>
+<hr />
+<p><em>Stay tuned for more updates and insights on productivity tools and techniques!</em></p>
+ </div>
+ <div class="post-tail-wrapper text-muted">
+     <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+          <a href="/categories/tools/">Tools</a>,
+          <a href="/categories/software/">Software</a>
+     </div>
+     <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+          <a
+            href="/tags/vs-code/"
+            class="post-tag no-text-decoration"
+          >VS Code</a>
+          <a
+            href="/tags/programming/"
+            class="post-tag no-text-decoration"
+          >Programming</a>
+          <a
+            href="/tags/productivity/"
+            class="post-tag no-text-decoration"
+          >Productivity</a>
+     </div>
+   <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+     <div class="license-wrapper">
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+     </div>
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
+      <a href="https://twitter.com/intent/tweet?text=VS%20Code:%20My%20Coding%20BFF%20-%20Ankit%20Sharma&url=https%3A%2F%2Fankitsm08.github.io%2Fposts%2Fvs-code%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
+      </a>
+      <a href="https://www.facebook.com/sharer/sharer.php?title=VS%20Code:%20My%20Coding%20BFF%20-%20Ankit%20Sharma&u=https%3A%2F%2Fankitsm08.github.io%2Fposts%2Fvs-code%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
+      </a>
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fankitsm08.github.io%2Fposts%2Fvs-code%2F&text=VS%20Code:%20My%20Coding%20BFF%20-%20Ankit%20Sharma" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
+      </a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fankitsm08.github.io%2Fposts%2Fvs-code%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin" aria-label="Linkedin">
+        <i class="fa-fw fab fa-linkedin"></i>
+      </a>
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
+</div>
+   </div>
+ </div>
+</article>
+         </main>
+         <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 mb-5 text-muted">
+           <div class="access">
+ <section id="access-lastmod">
+   <h2 class="panel-heading">Recently Updated</h2>
+   <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+       <li class="text-truncate lh-lg">
+          <a href="/posts/isc-computer-project/">ISC Java CS Project Repository</a>
+       <li class="text-truncate lh-lg">
+          <a href="/posts/common-names-in-organic-chemistry/">Common Names in Organic Chemistry</a>
+       <li class="text-truncate lh-lg">
+          <a href="/posts/vs-code/">VS Code: My Coding BFF</a>
+       <li class="text-truncate lh-lg">
+          <a href="/posts/hello-world/">Hello World!</a>
+       <li class="text-truncate lh-lg">
+          <a href="/posts/obsidian/">Obsidian: Master Your Note-Taking</a>
+   </ul>
+ </section>
+ <section>
+   <h2 class="panel-heading">Trending Tags</h2>
+   <div class="d-flex flex-wrap mt-3 mb-1 me-3">
+        <a class="post-tag btn btn-outline-primary" href="/tags/learning/">Learning</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/productivity/">Productivity</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/programming/">Programming</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/ank/">Ank</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/java/">Java</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/my-life/">My Life</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/note-taking/">Note-Taking</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/obsidian/">Obsidian</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/organic-chemistry/">Organic Chemistry</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/school/">School</a>
+   </div>
+ </section>
+           </div>
+ <section id="toc-wrapper" class="d-none ps-0 pe-4">
+   <h2 class="panel-heading ps-3 mb-2">Contents</h2>
+   <nav id="toc"></nav>
+ </section>
+         </aside>
+       </div>
+       <div class="row">
+         <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+ <aside id="related-posts" aria-labelledby="related-label">
+   <h3 class="mb-4" id="related-label">Further Reading</h3>
+   <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+       <article class="col">
+          <a href="/posts/obsidian/" class="post-preview card h-100">
+           <div class="card-body">
+<time
+  data-ts="1716143400"
+  data-df="ll"
+>
+  May 20, 2024
+</time>
+             <h4 class="pt-0 my-2">Obsidian: Master Your Note-Taking</h4>
+             <div class="text-muted">
+               <p>A versatile note-taking tool for organizing thoughts, fostering connections, and boosting productivity 🚀.</p>
+             </div>
+           </div>
+          </a>
+       </article>
+       <article class="col">
+          <a href="/posts/isc-computer-project/" class="post-preview card h-100">
+           <div class="card-body">
+<time
+  data-ts="1727006400"
+  data-df="ll"
+>
+  Sep 22, 2024
+</time>
+             <h4 class="pt-0 my-2">ISC Java CS Project Repository</h4>
+             <div class="text-muted">
+               <p>A comprehensive and time-saving resource for the Class 12 ISC Computer Science Java project. This repository includes questions, algorithms, Java programs, test outputs, and a ready-to-print Word d...</p>
+             </div>
+           </div>
+          </a>
+       </article>
+   </nav>
+ </aside>
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+    <a
+      href="/posts/obsidian/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+     <p>Obsidian: Master Your Note-Taking</p>
+    </a>
+    <a
+      href="/posts/common-names-in-organic-chemistry/"
+      class="btn btn-outline-primary"
+      aria-label="Newer"
+    >
+     <p>Common Names in Organic Chemistry</p>
+    </a>
+</nav>
+<footer
+  aria-label="Site Info"
+  class="
+    d-flex flex-column justify-content-center text-muted
+    flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
+  "
+>
+ <p>©
+    <time>2024</time>
+      <a href="https://github.com/ankitsm08">Ankit Sharma</a>.
+      <span
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author."
+      >Some rights reserved.</span>
+ </p>
+</footer>
+         </div>
+       </div>
+<div id="search-result-wrapper" class="d-flex justify-content-center d-none">
+ <div class="col-11 content">
+   <div id="search-hints">
+ <section>
+   <h2 class="panel-heading">Trending Tags</h2>
+   <div class="d-flex flex-wrap mt-3 mb-1 me-3">
+        <a class="post-tag btn btn-outline-primary" href="/tags/learning/">Learning</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/productivity/">Productivity</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/programming/">Programming</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/ank/">Ank</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/java/">Java</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/my-life/">My Life</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/note-taking/">Note-Taking</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/obsidian/">Obsidian</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/organic-chemistry/">Organic Chemistry</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/school/">School</a>
+   </div>
+ </section>
+   </div>
+   <div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div>
+ </div>
+</div>
+     </div>
+     <aside aria-label="Scroll to Top">
+        <button id="back-to-top" type="button" class="btn btn-lg btn-box-shadow">
+          <i class="fas fa-angle-up"></i>
+        </button>
+     </aside>
+   </div>
+   <div id="mask"></div>
+     <aside
+  id="notification"
+  class="toast"
+  role="alert"
+  aria-live="assertive"
+  aria-atomic="true"
+  data-bs-animation="true"
+  data-bs-autohide="false"
+>
+ <div class="toast-header">
+    <button
+      type="button"
+      class="btn-close ms-auto"
+      data-bs-dismiss="toast"
+      aria-label="Close"
+    ></button>
+ </div>
+ <div class="toast-body text-center pt-0">
+   <p class="px-2 mb-3">A new version of content is available.</p>
+    <button type="button" class="btn btn-primary" aria-label="Update">
+      Update
+    </button>
+ </div>
+</aside>
+  <script src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.11/dayjs.min.js,npm/dayjs@1.11.11/locale/en.min.js,npm/dayjs@1.11.11/plugin/relativeTime.min.js,npm/dayjs@1.11.11/plugin/localizedFormat.min.js,npm/tocbot@4.27.20/dist/tocbot.min.js"></script>
+<script src="/assets/js/dist/post.min.js"></script>
+<script>
+  let pv = document.getElementById('pageviews');
+  if (pv !== null) {
+    const uri = location.pathname.replace(/\/$/, '');
+    const url = `https://ankitsm08.goatcounter.com/counter/${encodeURIComponent(uri)}.json`;
+    fetch(url)
+      .then((response) => response.json())
+      .then((data) => {
+        const count = data.count.replace(/\s/g, '');
+        pv.innerText = new Intl.NumberFormat().format(count);
+      })
+      .catch((error) => {
+        pv.innerText = '1';
+      });
+  }
+</script>
+    <script defer src="/assets/js/dist/app.min.js"></script>
+<script
+  async
+  src="https://gc.zgo.at/count.js"
+  data-goatcounter="https://ankitsm08.goatcounter.com/count"
+></script>
+<script>SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('search-results'),
+    json: '/assets/js/data/search.json',
+    searchResultTemplate: ' <article class="px-1 px-sm-2 px-lg-4 px-xl-0">  <header>     <h2><a href="{url}">{title}</a></h2>    <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">        {categories}        {tags}     </div>  </header>  <p>{snippet}</p></article>',
+    noResultsText: '<p class="mt-5">Oops! No results found.</p>',
+    templateMiddleware: function(prop, value, template) {
+      if (prop === 'categories') {
+        if (value === '') {
+          return `${value}`;
+        } else {
+          return `<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`;
+        }
+      }
+      if (prop === 'tags') {
+        if (value === '') {
+          return `${value}`;
+        } else {
+          return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
+        }
+      }
+    }
+  });
+</script>
+   <table id="compress_html_profile_20240925" class="compress_html_profile"> <thead> <tr> <td>Step <td>Bytes <tbody> <tr> <td>raw <td>57225 <tr> <td>endings <td>56859 <tr> <td>comments <td>52397 <tr> <td>collapse <td>41387 <tr> <td>clippings <td>41183 </table>
