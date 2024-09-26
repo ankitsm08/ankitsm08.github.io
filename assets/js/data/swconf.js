@@ -1,3 +1,1 @@
-const swconf = {
-    purge: true
-};
+const swconf={purge:!0};
