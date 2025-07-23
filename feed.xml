@@ -3,7 +3,7 @@
   <id>https://ankitsm08.github.io/</id>
  <title>Ankit Sharma</title>
   <subtitle>JEE preparation, computer science, data science, machine learning, deep learning, robotics, automation, Python programming, C++ programming, Visual Studio Code, Obsidian notes, problem-solving, chess strategies, badminton tips, anime reviews, manga recommendations, light novels.</subtitle>
-  <updated>2024-11-23T03:58:03+05:30</updated>
+  <updated>2025-07-24T01:20:11+05:30</updated>
   <author>
     <name>Ankit Sharma</name>
     <uri>https://ankitsm08.github.io/</uri>
@@ -12,9 +12,23 @@
 <link rel="alternate" type="text/html" hreflang="en"
     href="https://ankitsm08.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
-  <rights> © 2024 Ankit Sharma </rights>
+  <rights> © 2025 Ankit Sharma </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
+  <entry>
+   <title>Mahk-1: The First Iron Blunder</title>
+  <link href="https://ankitsm08.github.io/posts/iron-man-helmet-mahk-1/" rel="alternate" type="text/html" title="Mahk-1: The First Iron Blunder" />
+   <published>2025-07-23T17:30:00+05:30</published>
+    <updated>2025-07-23T17:30:00+05:30</updated>
+    <id>https://ankitsm08.github.io/posts/iron-man-helmet-mahk-1/</id>
+    <content src="https://ankitsm08.github.io/posts/iron-man-helmet-mahk-1/" />
+    <author>
+      <name>ank</name>
+    </author>
+    <category term="Projects" />
+    <category term="Crafts" />
+  <summary>An accidental baby-sized Iron Man helmet turned into a surprisingly fun and educational prototype. Here&amp;#39;s how Mahk-1 came to life and turned into my prototype post.</summary>
+  </entry>
   <entry>
    <title>ISC Java CS Project Repository</title>
   <link href="https://ankitsm08.github.io/posts/isc-computer-project/" rel="alternate" type="text/html" title="ISC Java CS Project Repository" />
@@ -28,20 +42,6 @@
     <category term="Study" />
     <category term="Computer Science" />
   <summary>A comprehensive and time-saving resource for the Class 12 ISC Computer Science Java project. This repository includes questions, algorithms, Java programs, test outputs, and a ready-to-print Word docx file. Licensed under MIT, it&amp;#39;s free for everyone to use, modify, and share. Contributions welcome!</summary>
-  </entry>
-  <entry>
-   <title>Common Names in Organic Chemistry</title>
-  <link href="https://ankitsm08.github.io/posts/common-names-in-organic-chemistry/" rel="alternate" type="text/html" title="Common Names in Organic Chemistry" />
-   <published>2024-06-02T00:00:00+05:30</published>
-    <updated>2024-09-26T19:36:42+05:30</updated>
-    <id>https://ankitsm08.github.io/posts/common-names-in-organic-chemistry/</id>
-    <content src="https://ankitsm08.github.io/posts/common-names-in-organic-chemistry/" />
-    <author>
-      <name>ank</name>
-    </author>
-    <category term="Study" />
-    <category term="Chemistry" />
-  <summary>An overview of common names in organic chemistry and strategies to memorize them effectively.</summary>
   </entry>
   <entry>
    <title>VS Code: My Coding BFF</title>
