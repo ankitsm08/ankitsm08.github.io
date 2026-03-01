@@ -1,1 +1,6 @@
-const swconf={purge:!0};
+const swconf = {
+  
+    purge: true
+  
+};
+

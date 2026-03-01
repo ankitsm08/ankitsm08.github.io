@@ -1,88 +1,153 @@
 
+
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://ankitsm08.github.io/</id>
- <title>Ankit Sharma</title>
+  <id>http://localhost:4000/</id>
+  <title>Ankit Sharma</title>
   <subtitle>JEE preparation, computer science, data science, machine learning, deep learning, robotics, automation, Python programming, C++ programming, Visual Studio Code, Obsidian notes, problem-solving, chess strategies, badminton tips, anime reviews, manga recommendations, light novels.</subtitle>
-  <updated>2025-08-21T16:42:41+05:30</updated>
+  <updated>2026-03-01T16:39:17+05:30</updated>
   <author>
     <name>Ankit Sharma</name>
-    <uri>https://ankitsm08.github.io/</uri>
+    <uri>http://localhost:4000/</uri>
   </author>
-<link rel="self" type="application/atom+xml" href="https://ankitsm08.github.io/feed.xml"/>
-<link rel="alternate" type="text/html" hreflang="en"
-    href="https://ankitsm08.github.io/"/>
-  <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
-  <rights> © 2025 Ankit Sharma </rights>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 Ankit Sharma </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
   <entry>
-   <title>Mahk-1: The First Iron Blunder</title>
-  <link href="https://ankitsm08.github.io/posts/iron-man-helmet-mahk-1/" rel="alternate" type="text/html" title="Mahk-1: The First Iron Blunder" />
-   <published>2025-07-23T17:30:00+05:30</published>
-    <updated>2025-08-21T15:53:28+05:30</updated>
-    <id>https://ankitsm08.github.io/posts/iron-man-helmet-mahk-1/</id>
-    <content src="https://ankitsm08.github.io/posts/iron-man-helmet-mahk-1/" />
+    <title>I switched to Arch! And here's why Windows was trash</title>
+    <link href="http://localhost:4000/posts/switched-to-arch/" rel="alternate" type="text/html" title="I switched to Arch! And here&amp;apos;s why Windows was trash" />
+    <published>2026-02-15T17:30:00+05:30</published>
+  
+    <updated>2026-02-15T17:30:00+05:30</updated>
+  
+    <id>http://localhost:4000/posts/switched-to-arch/</id>
+    <content type="text/html" src="http://localhost:4000/posts/switched-to-arch/" />
     <author>
-      <name>ank</name>
+      <name>Ankit Sharma</name>
     </author>
+
+  
+    
+    <category term="OS" />
+    
+    <category term="Software" />
+    
+  
+
+  <summary>A personal reflection on my decision to switch to Arch Linux, and why Windows was trash in the first place.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Mahk-1: The First Iron Blunder</title>
+    <link href="http://localhost:4000/posts/iron-man-helmet-mahk-1/" rel="alternate" type="text/html" title="Mahk-1: The First Iron Blunder" />
+    <published>2025-07-23T17:30:00+05:30</published>
+  
+    <updated>2025-07-23T17:30:00+05:30</updated>
+  
+    <id>http://localhost:4000/posts/iron-man-helmet-mahk-1/</id>
+    <content type="text/html" src="http://localhost:4000/posts/iron-man-helmet-mahk-1/" />
+    <author>
+      <name>Ankit Sharma</name>
+    </author>
+
+  
+    
     <category term="Projects" />
+    
     <category term="Crafts" />
-  <summary>An accidental baby-sized Iron Man helmet turned into a surprisingly fun and educational prototype. Here&amp;#39;s how Mahk-1 came to life and turned into my prototype post.</summary>
+    
+  
+
+  <summary>An accidental baby-sized Iron Man helmet turned into a surprisingly fun and educational prototype. Here's how Mahk-1 came to life and turned into my prototype post.</summary>
+
   </entry>
+
+  
   <entry>
-   <title>ISC Java CS Project Repository</title>
-  <link href="https://ankitsm08.github.io/posts/isc-computer-project/" rel="alternate" type="text/html" title="ISC Java CS Project Repository" />
-   <published>2024-09-22T17:30:00+05:30</published>
-    <updated>2024-09-26T19:36:42+05:30</updated>
-    <id>https://ankitsm08.github.io/posts/isc-computer-project/</id>
-    <content src="https://ankitsm08.github.io/posts/isc-computer-project/" />
+    <title>ISC Java CS Project Repository</title>
+    <link href="http://localhost:4000/posts/isc-computer-project/" rel="alternate" type="text/html" title="ISC Java CS Project Repository" />
+    <published>2024-09-22T17:30:00+05:30</published>
+  
+    <updated>2024-09-22T17:30:00+05:30</updated>
+  
+    <id>http://localhost:4000/posts/isc-computer-project/</id>
+    <content type="text/html" src="http://localhost:4000/posts/isc-computer-project/" />
     <author>
-      <name>ank</name>
+      <name>Ankit Sharma</name>
     </author>
+
+  
+    
     <category term="Study" />
+    
     <category term="Computer Science" />
-  <summary>A comprehensive and time-saving resource for the Class 12 ISC Computer Science Java project. This repository includes questions, algorithms, Java programs, test outputs, and a ready-to-print Word docx file. Licensed under MIT, it&amp;#39;s free for everyone to use, modify, and share. Contributions welcome!</summary>
+    
+  
+
+  <summary>A comprehensive and time-saving resource for the Class 12 ISC Computer Science Java project. This repository includes questions, algorithms, Java programs, test outputs, and a ready-to-print Word docx file. Licensed under MIT, it's free for everyone to use, modify, and share. Contributions welcome!</summary>
+
   </entry>
+
+  
   <entry>
-   <title>VS Code: My Coding BFF</title>
-  <link href="https://ankitsm08.github.io/posts/vs-code/" rel="alternate" type="text/html" title="VS Code: My Coding BFF" />
-   <published>2024-05-22T17:30:00+05:30</published>
-    <updated>2024-09-26T19:36:42+05:30</updated>
-    <id>https://ankitsm08.github.io/posts/vs-code/</id>
-    <content src="https://ankitsm08.github.io/posts/vs-code/" />
+    <title>VS Code: My Coding BFF</title>
+    <link href="http://localhost:4000/posts/vs-code/" rel="alternate" type="text/html" title="VS Code: My Coding BFF" />
+    <published>2024-05-22T17:30:00+05:30</published>
+  
+    <updated>2024-05-22T17:30:00+05:30</updated>
+  
+    <id>http://localhost:4000/posts/vs-code/</id>
+    <content type="text/html" src="http://localhost:4000/posts/vs-code/" />
     <author>
-      <name>ank</name>
+      <name>Ankit Sharma</name>
     </author>
+
+  
+    
     <category term="Tools" />
+    
     <category term="Software" />
-  <summary>Tired of clunky IDEs? VS Code, a personal take on why it&amp;#39;s a game-changer for programmers and hobbyists.</summary>
+    
+  
+
+  <summary>Tired of clunky IDEs? VS Code, a personal take on why it's a game-changer for programmers and hobbyists.</summary>
+
   </entry>
+
+  
   <entry>
-   <title>Obsidian: Master Your Note-Taking</title>
-  <link href="https://ankitsm08.github.io/posts/obsidian/" rel="alternate" type="text/html" title="Obsidian: Master Your Note-Taking" />
-   <published>2024-05-20T00:00:00+05:30</published>
-    <updated>2024-09-26T19:36:42+05:30</updated>
-    <id>https://ankitsm08.github.io/posts/obsidian/</id>
-    <content src="https://ankitsm08.github.io/posts/obsidian/" />
+    <title>Obsidian: Master Your Note-Taking</title>
+    <link href="http://localhost:4000/posts/obsidian/" rel="alternate" type="text/html" title="Obsidian: Master Your Note-Taking" />
+    <published>2024-05-20T00:00:00+05:30</published>
+  
+    <updated>2024-05-20T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/posts/obsidian/</id>
+    <content type="text/html" src="http://localhost:4000/posts/obsidian/" />
     <author>
-      <name>ank</name>
+      <name>Ankit Sharma</name>
     </author>
+
+  
+    
     <category term="Tools" />
+    
     <category term="Software" />
+    
+  
+
   <summary>A versatile note-taking tool for organizing thoughts, fostering connections, and boosting productivity 🚀.</summary>
+
   </entry>
-  <entry>
-   <title>Hello World!</title>
-  <link href="https://ankitsm08.github.io/posts/hello-world/" rel="alternate" type="text/html" title="Hello World!" />
-   <published>2024-05-19T17:30:00+05:30</published>
-    <updated>2024-05-25T00:59:17+05:30</updated>
-    <id>https://ankitsm08.github.io/posts/hello-world/</id>
-    <content src="https://ankitsm08.github.io/posts/hello-world/" />
-    <author>
-      <name>ank</name>
-    </author>
-    <category term="Me" />
-    <category term="Introduction" />
-  <summary>Ank&amp;#39;s tech space: tutorials, problem-solving, projects, resources. Welcomes learners, educators, and curious minds to connect and inspire. 🚀</summary>
-  </entry>
+
 </feed>
+
+
