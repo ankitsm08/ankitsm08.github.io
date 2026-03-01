@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>https://ankitsm08.github.io/</id>
   <title>Ankit Sharma</title>
   <subtitle>JEE preparation, computer science, data science, machine learning, deep learning, robotics, automation, Python programming, C++ programming, Visual Studio Code, Obsidian notes, problem-solving, chess strategies, badminton tips, anime reviews, manga recommendations, light novels.</subtitle>
-  <updated>2026-03-01T16:39:17+05:30</updated>
+  <updated>2026-03-01T21:50:15+05:30</updated>
   <author>
     <name>Ankit Sharma</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>https://ankitsm08.github.io/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://ankitsm08.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="https://ankitsm08.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2026 Ankit Sharma </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,15 +21,15 @@
   
   <entry>
     <title>I switched to Arch! And here's why Windows was trash</title>
-    <link href="http://localhost:4000/posts/switched-to-arch/" rel="alternate" type="text/html" title="I switched to Arch! And here&amp;apos;s why Windows was trash" />
+    <link href="https://ankitsm08.github.io/posts/switched-to-arch/" rel="alternate" type="text/html" title="I switched to Arch! And here&amp;apos;s why Windows was trash" />
     <published>2026-02-15T17:30:00+05:30</published>
   
     <updated>2026-02-15T17:30:00+05:30</updated>
   
-    <id>http://localhost:4000/posts/switched-to-arch/</id>
-    <content type="text/html" src="http://localhost:4000/posts/switched-to-arch/" />
+    <id>https://ankitsm08.github.io/posts/switched-to-arch/</id>
+    <content type="text/html" src="https://ankitsm08.github.io/posts/switched-to-arch/" />
     <author>
-      <name>Ankit Sharma</name>
+      <name>ank</name>
     </author>
 
   
@@ -47,15 +47,15 @@
   
   <entry>
     <title>Mahk-1: The First Iron Blunder</title>
-    <link href="http://localhost:4000/posts/iron-man-helmet-mahk-1/" rel="alternate" type="text/html" title="Mahk-1: The First Iron Blunder" />
+    <link href="https://ankitsm08.github.io/posts/iron-man-helmet-mahk-1/" rel="alternate" type="text/html" title="Mahk-1: The First Iron Blunder" />
     <published>2025-07-23T17:30:00+05:30</published>
   
     <updated>2025-07-23T17:30:00+05:30</updated>
   
-    <id>http://localhost:4000/posts/iron-man-helmet-mahk-1/</id>
-    <content type="text/html" src="http://localhost:4000/posts/iron-man-helmet-mahk-1/" />
+    <id>https://ankitsm08.github.io/posts/iron-man-helmet-mahk-1/</id>
+    <content type="text/html" src="https://ankitsm08.github.io/posts/iron-man-helmet-mahk-1/" />
     <author>
-      <name>Ankit Sharma</name>
+      <name>ank</name>
     </author>
 
   
@@ -73,15 +73,15 @@
   
   <entry>
     <title>ISC Java CS Project Repository</title>
-    <link href="http://localhost:4000/posts/isc-computer-project/" rel="alternate" type="text/html" title="ISC Java CS Project Repository" />
+    <link href="https://ankitsm08.github.io/posts/isc-computer-project/" rel="alternate" type="text/html" title="ISC Java CS Project Repository" />
     <published>2024-09-22T17:30:00+05:30</published>
   
     <updated>2024-09-22T17:30:00+05:30</updated>
   
-    <id>http://localhost:4000/posts/isc-computer-project/</id>
-    <content type="text/html" src="http://localhost:4000/posts/isc-computer-project/" />
+    <id>https://ankitsm08.github.io/posts/isc-computer-project/</id>
+    <content type="text/html" src="https://ankitsm08.github.io/posts/isc-computer-project/" />
     <author>
-      <name>Ankit Sharma</name>
+      <name>ank</name>
     </author>
 
   
@@ -99,15 +99,15 @@
   
   <entry>
     <title>VS Code: My Coding BFF</title>
-    <link href="http://localhost:4000/posts/vs-code/" rel="alternate" type="text/html" title="VS Code: My Coding BFF" />
+    <link href="https://ankitsm08.github.io/posts/vs-code/" rel="alternate" type="text/html" title="VS Code: My Coding BFF" />
     <published>2024-05-22T17:30:00+05:30</published>
   
     <updated>2024-05-22T17:30:00+05:30</updated>
   
-    <id>http://localhost:4000/posts/vs-code/</id>
-    <content type="text/html" src="http://localhost:4000/posts/vs-code/" />
+    <id>https://ankitsm08.github.io/posts/vs-code/</id>
+    <content type="text/html" src="https://ankitsm08.github.io/posts/vs-code/" />
     <author>
-      <name>Ankit Sharma</name>
+      <name>ank</name>
     </author>
 
   
@@ -125,15 +125,15 @@
   
   <entry>
     <title>Obsidian: Master Your Note-Taking</title>
-    <link href="http://localhost:4000/posts/obsidian/" rel="alternate" type="text/html" title="Obsidian: Master Your Note-Taking" />
+    <link href="https://ankitsm08.github.io/posts/obsidian/" rel="alternate" type="text/html" title="Obsidian: Master Your Note-Taking" />
     <published>2024-05-20T00:00:00+05:30</published>
   
     <updated>2024-05-20T00:00:00+05:30</updated>
   
-    <id>http://localhost:4000/posts/obsidian/</id>
-    <content type="text/html" src="http://localhost:4000/posts/obsidian/" />
+    <id>https://ankitsm08.github.io/posts/obsidian/</id>
+    <content type="text/html" src="https://ankitsm08.github.io/posts/obsidian/" />
     <author>
-      <name>Ankit Sharma</name>
+      <name>ank</name>
     </author>
 
   
